@@ -477,6 +477,19 @@
         }
       ],
       "id": 7
+    },
+    {
+      "address": "Rua Circular, 336, Casa",
+      "number": "336",
+      "optionalAddress": "Casa",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 4,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 8
     }
   ]
 }
