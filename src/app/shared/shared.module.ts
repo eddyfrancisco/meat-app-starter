@@ -9,12 +9,13 @@ import { RadioComponent } from './radio/radio.component';
 import { ShoppingCartService } from '../restaurant-detail/shopping-cart/shopping-cart-service';
 import { RestaurantsService } from '../restaurants/restaurants.service';
 import { OrderService } from '../order/order.service';
+import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 
 @NgModule({
 
-    declarations: [InputComponent, RatingComponent, RadioComponent],
+    declarations: [InputComponent, RatingComponent, RadioComponent, SnackbarComponent],
     imports: [CommonModule, FormsModule, ReactiveFormsModule],
-    exports: [InputComponent, RatingComponent, RadioComponent,
+    exports: [InputComponent, RatingComponent, RadioComponent, SnackbarComponent,
         CommonModule, FormsModule, ReactiveFormsModule]
 
 })
